@@ -1,7 +1,7 @@
 :root {
 	--primary-bg: #011627;
 	--active-bg: #7FFFD4;
-	--odd-bg: #ff0000;
+	--bomb-bg: #ff0000;
 	--even-bg: #7FFFD4;
 }
 
@@ -51,4 +51,9 @@ body {
 
 .square.active {
 	background-color: var(--active-bg);
+	color: #333;
+}
+
+.square.bomb {
+	background-color: var(--bomb-bg);
 }
